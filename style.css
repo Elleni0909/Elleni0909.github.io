@@ -69,3 +69,12 @@
 	margin: auto;
 	padding: 20px 40px;
 }
+a {
+	text-decoration: inherit;
+	font-style: inherit;
+	color: inherit;
+}
+a:hover {
+ text-decoration: none;
+ color: #00A8F0;
+}
