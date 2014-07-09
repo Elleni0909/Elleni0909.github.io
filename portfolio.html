@@ -9,6 +9,7 @@
 		    <script src="responsiveslides.min.js"></script>
         <script src="script.js"></script>
         <script src="masonry.pkgd.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Poiret+One|Quicksand:400,700|Josefin+Sans:400,600,700|Text+Me+One' rel='stylesheet' type='text/css'>
         <link href="style.css" rel="stylesheet">
         <title>Sia Cox</title>
         <script>
@@ -17,7 +18,7 @@
 		      });
 		</script>
     </head>
-    <body>
+    <body id='project-wrap'>
     <div class="container">
     	<div id="navigation">
     		<nav class="navbar navbar-default navbar-static-top" role="navigation">
@@ -31,8 +32,8 @@
   	  		</ul>
 			  </nav>
 		  </div>
-
-      <div id="container" class="js-masonry masonry" id="column-width-demo2" data-masonry-options='{ "columnWidth": 200, "gutter": 20, "itemSelector": ".item"}'>
+      <h1 class="portfolio">PORTFOLIO</h1>
+      <div id="container" class="js-masonry masonry" id="column-width-demo2" data-masonry-options='{ "columnWidth": 200, "gutter": 20, "itemSelector": ".item", "isFitWidth": "true"}'>
         <div class="item w2"><img src="2.png" alt="Ruby" class="grayscale"></div>
         <div class="item w2"><img src="3.png" alt="Papou" class="grayscale"></div>
         <div class="item w2"><img src="4.png" alt="Adrian" class="grayscale"></div>
@@ -48,12 +49,18 @@
         <div class="item w2"><img src="14.jpg" alt="Landscape" class="grayscale"></div>
       </div>
         <!--CAROUSEL STARTS HERE-->
+      <div class="carousel-container carousel">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="7"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -85,13 +92,14 @@
         </div>
 
         <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev" style="width:50px; height:500px;">
           <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next" style="width:50px; height:500px;">
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>
+    </div>
       <div class="footer">
         <div class="container">
           <p class="text-muted">Copyright 2014 Sia Cox</p>
